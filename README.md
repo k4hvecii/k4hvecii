@@ -1,6 +1,6 @@
-<h1>Hi <img width="35" src="https://cdn.swoth.live/emojis/waving-hand.gif" />, I'm K4hveci.</h1>
+##Hi, I'm K4hveci.
 
-<h2><img width="25" src="https://cdn.swoth.live/emojis/magnifying-glass.png" /> About</h2>
+## About
 
 - I live in Turkey. I'm high school <br/> student and self-improvement person. I guess that's it.
 - Discord.js is my favorite programming language.
