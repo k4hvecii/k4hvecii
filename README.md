@@ -1,27 +1,58 @@
-# Hi, I'm K4hveci!
+<div align="center">
 
-## About
+# Hey, I'm K4hveci 👋
 
-- I live in Turkey. I'm high school <br/> student and self-improvement person. I guess that's it.
-- Discord.js is my favorite programming language.
+### Student · Discord Bot Developer · Always Learning
 
-## My Skills
-#### Operating Systems
-![](https://skillicons.dev/icons?i=apple,windows)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+Discord+bots+with+JavaScript;Learning+something+new+every+day;Turning+ideas+into+projects" alt="Typing animation" />
 
-#### Software
-![](https://skillicons.dev/icons?i=vscode,github,npm,mongodb,ps&perline=6)
+</div>
 
-#### Socials
-![](https://skillicons.dev/icons?i=discord,github,instagram)
+## About Me
 
-#### Languages
-![](https://skillicons.dev/icons?i=html,nodejs&perline=6)
+- 🇹🇷 I'm a high school student from Turkey
+- 🤖 I enjoy developing Discord bots with JavaScript
+- 🌱 I'm currently improving my Node.js and MongoDB skills
+- 🚀 I like transforming small ideas into real projects
+- 💬 My favorite technology is Discord.js
 
-#### Frameworks
-![](https://skillicons.dev/icons?i=bots,discordjs)
+## Technologies
 
-## Stats
-![](https://github-readme-stats.vercel.app/api?username=DJj123dj&count_private=true&show_icons=true&theme=nord&hide_border=true&bg_color=0D1117)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=DJj123dj&theme=nord&layout=compact&langs_count=20&hide_border=true)
-![](https://github-readme-streak-stats.herokuapp.com/?user=DJj123dj&hide_border=true&border_radius=10&theme=nord)
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=js,nodejs,discordjs,mongodb,npm,html,git,github,vscode,photoshop&perline=5" alt="Technology icons" />
+
+</div>
+
+## GitHub Activity
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=DJj123dj&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub statistics" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DJj123dj&layout=compact&langs_count=6&theme=transparent&hide_border=true" alt="Most used languages" />
+
+<img src="https://streak-stats.demolab.com?user=DJj123dj&theme=transparent&hide_border=true&border_radius=10" alt="GitHub contribution streak" />
+
+</div>
+
+## Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/DJj123dj">
+  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="YOUR_DISCORD_LINK">
+  <img src="https://img.shields.io/badge/Discord-0D1117?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord" />
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+*Learning, building and improving — one project at a time.*
+
+</div>
