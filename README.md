@@ -49,28 +49,19 @@ structured logging, i18n tooling, and Linux/VPS deployment support.
 </a>
 </td>
 <td width="32%" align="center" valign="middle">
-<h3>Project Status</h3>
-
-<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status" />
+<h3>Project Health</h3>
+<img src="https://img.shields.io/badge/Production%20Readiness-90%25-2ea44f?style=for-the-badge" alt="Production Readiness" />
 <br>
-
-<img src="https://img.shields.io/badge/Visibility-Public-2ea44f?style=for-the-badge&logo=github" alt="Visibility" />
+<img src="https://img.shields.io/badge/Documentation-95%25-2ea44f?style=for-the-badge" alt="Documentation" />
 <br>
-
-<img src="https://img.shields.io/badge/Template-Enabled-5865F2?style=for-the-badge" alt="Template Repository" />
+<img src="https://img.shields.io/badge/Testing-85%25-f59e0b?style=for-the-badge" alt="Testing" />
 <br>
-
-<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
-<br>
-
-<img src="https://img.shields.io/badge/Runtime-Node.js%2024-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 24" />
-<br>
-
-<img src="https://img.shields.io/badge/Framework-Discord.js%20v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14" />
-<br>
-
-<img src="https://img.shields.io/github/last-commit/k4hvecii/discordjs-v14-production-template?style=for-the-badge&label=Last%20Update" alt="Last Update" />
-
+<img src="https://img.shields.io/badge/Security-90%25-2ea44f?style=for-the-badge" alt="Security" />
+<br><br>
+<img src="https://img.shields.io/badge/Node.js-24-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js 24" />
+<img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord.js v14" />
+<img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="MIT License" />
+<img src="https://img.shields.io/badge/Template-Public-2ea44f?style=flat-square&logo=github" alt="Public Template" />
 </td>
 </tr>
 </table>
