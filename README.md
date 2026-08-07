@@ -55,43 +55,50 @@ I'm a student developer from Türkiye focused on learning how systems work, buil
 
 ## Tech Stack
 
-<table>
-  <tr>
-    <td width="33%" align="center" valign="top">
-      <h3>Languages & Runtime</h3>
-      <img src="https://skillicons.dev/icons?i=js,nodejs,python,bash,html&perline=5" alt="Languages and Runtime" />
-      <br /><br />
-      <code>JavaScript</code>
-      <code>Node.js</code>
-      <code>Python</code>
-      <code>Bash</code>
-      <code>HTML</code>
-    </td>
+<div align="center">
 
-    <td width="33%" align="center" valign="top">
-      <h3>Data & Backend</h3>
-      <img src="https://skillicons.dev/icons?i=sqlite,mongodb,express,npm&perline=4" alt="Data and Backend" />
-      <br /><br />
-      <code>SQLite</code>
-      <code>MongoDB</code>
-      <code>Express.js</code>
-      <code>npm</code>
-      <code>JSON</code>
-    </td>
+### Languages & Runtime
 
-    <td width="33%" align="center" valign="top">
-      <h3>Systems & Tools</h3>
-      <img src="https://skillicons.dev/icons?i=linux,kali,windows,git,github,vscode&perline=6" alt="Systems and Tools" />
-      <br /><br />
-      <code>Linux</code>
-      <code>Kali Linux</code>
-      <code>Windows</code>
-      <code>Git</code>
-      <code>GitHub</code>
-      <code>VS Code</code>
-    </td>
-  </tr>
-</table>
+<img src="https://skillicons.dev/icons?i=js,nodejs,python,bash,html" alt="Languages and Runtime" />
+
+<br />
+
+<code>JavaScript</code>
+<code>Node.js</code>
+<code>Python</code>
+<code>Bash</code>
+<code>HTML</code>
+
+<br /><br />
+
+### Data & Backend
+
+<img src="https://skillicons.dev/icons?i=sqlite,mongodb,express,npm" alt="Data and Backend" />
+
+<br />
+
+<code>SQLite</code>
+<code>MongoDB</code>
+<code>Express.js</code>
+<code>npm</code>
+<code>JSON</code>
+
+<br /><br />
+
+### Systems & Tools
+
+<img src="https://skillicons.dev/icons?i=linux,kali,windows,git,github,vscode" alt="Systems and Tools" />
+
+<br />
+
+<code>Linux</code>
+<code>Kali Linux</code>
+<code>Windows</code>
+<code>Git</code>
+<code>GitHub</code>
+<code>VS Code</code>
+
+</div>
 
 ## What I'm Working On
 
