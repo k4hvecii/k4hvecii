@@ -36,6 +36,9 @@ A production-oriented Discord.js v14 bot template built with native ES Modules,
 SQLite, Winston, Zod, PM2, automated testing, health checks, database migrations,
 structured logging, i18n tooling, and Linux/VPS deployment support.
 </p>
+<p align="center">
+  If you find this template useful, consider giving it a ⭐
+</p>
 <p>
 <code>Discord.js v14</code>
 <code>Node.js</code>
