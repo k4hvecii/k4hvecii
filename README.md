@@ -55,12 +55,43 @@ I'm a student developer from Türkiye focused on learning how systems work, buil
 
 ## Tech Stack
 
-<div align="center">
-  <img
-    src="https://skillicons.dev/icons?i=js,nodejs,discordjs,python,bash,linux,kali,sqlite,mongodb,npm,html,git,github,vscode,windows&perline=8"
-    alt="Technology stack"
-  />
-</div>
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>Languages & Runtime</h3>
+      <img src="https://skillicons.dev/icons?i=js,nodejs,python,bash,html&perline=5" alt="Languages and Runtime" />
+      <br /><br />
+      <code>JavaScript</code>
+      <code>Node.js</code>
+      <code>Python</code>
+      <code>Bash</code>
+      <code>HTML</code>
+    </td>
+
+    <td width="33%" align="center" valign="top">
+      <h3>Data & Backend</h3>
+      <img src="https://skillicons.dev/icons?i=sqlite,mongodb,express,npm&perline=4" alt="Data and Backend" />
+      <br /><br />
+      <code>SQLite</code>
+      <code>MongoDB</code>
+      <code>Express.js</code>
+      <code>npm</code>
+      <code>JSON</code>
+    </td>
+
+    <td width="33%" align="center" valign="top">
+      <h3>Systems & Tools</h3>
+      <img src="https://skillicons.dev/icons?i=linux,kali,windows,git,github,vscode&perline=6" alt="Systems and Tools" />
+      <br /><br />
+      <code>Linux</code>
+      <code>Kali Linux</code>
+      <code>Windows</code>
+      <code>Git</code>
+      <code>GitHub</code>
+      <code>VS Code</code>
+    </td>
+  </tr>
+</table>
 
 ## What I'm Working On
 
