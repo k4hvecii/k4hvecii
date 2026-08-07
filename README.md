@@ -28,7 +28,7 @@ I'm a student developer from Türkiye focused on learning how systems work, buil
 
 ## Featured Project
 <p align="center">
-  If you find this template useful, consider giving it a ⭐
+If you find this template useful, consider giving it a ⭐
 </p>
 <table>
 <tr>
@@ -52,19 +52,22 @@ structured logging, i18n tooling, and Linux/VPS deployment support.
 </a>
 </td>
 <td width="32%" align="center" valign="middle">
-<h3>Project Health</h3>
-<img src="https://img.shields.io/badge/Production%20Readiness-90%25-2ea44f?style=for-the-badge" alt="Production Readiness" />
+<h3>Repository Status</h3>
+<a href="https://github.com/k4hvecii/discordjs-v14-production-template/stargazers">
+<img src="https://img.shields.io/github/stars/k4hvecii/discordjs-v14-production-template?style=for-the-badge&logo=github&label=Stars" alt="GitHub Stars" />
+</a>
 <br>
-<img src="https://img.shields.io/badge/Documentation-95%25-2ea44f?style=for-the-badge" alt="Documentation" />
+<a href="https://github.com/k4hvecii/discordjs-v14-production-template/forks">
+<img src="https://img.shields.io/github/forks/k4hvecii/discordjs-v14-production-template?style=for-the-badge&logo=github&label=Forks" alt="GitHub Forks" />
+</a>
 <br>
-<img src="https://img.shields.io/badge/Testing-85%25-f59e0b?style=for-the-badge" alt="Testing" />
+<a href="https://github.com/k4hvecii/discordjs-v14-production-template/issues">
+<img src="https://img.shields.io/github/issues/k4hvecii/discordjs-v14-production-template?style=for-the-badge&logo=github&label=Open%20Issues" alt="Open Issues" />
+</a>
 <br>
-<img src="https://img.shields.io/badge/Security-90%25-2ea44f?style=for-the-badge" alt="Security" />
-<br><br>
-<img src="https://img.shields.io/badge/Node.js-24-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js 24" />
-<img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord.js v14" />
-<img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="MIT License" />
-<img src="https://img.shields.io/badge/Template-Public-2ea44f?style=flat-square&logo=github" alt="Public Template" />
+<img src="https://img.shields.io/github/license/k4hvecii/discordjs-v14-production-template?style=for-the-badge&label=License" alt="License" />
+<br>
+<img src="https://img.shields.io/github/last-commit/k4hvecii/discordjs-v14-production-template?style=for-the-badge&label=Last%20Commit" alt="Last Commit" />
 </td>
 </tr>
 </table>
