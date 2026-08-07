@@ -27,6 +27,9 @@ I'm a student developer from Türkiye focused on learning how systems work, buil
 > I don't have a plan, but I have kebab.
 
 ## Featured Project
+<p align="center">
+  If you find this template useful, consider giving it a ⭐
+</p>
 <table>
 <tr>
 <td width="68%" valign="top">
@@ -35,9 +38,6 @@ I'm a student developer from Türkiye focused on learning how systems work, buil
 A production-oriented Discord.js v14 bot template built with native ES Modules,
 SQLite, Winston, Zod, PM2, automated testing, health checks, database migrations,
 structured logging, i18n tooling, and Linux/VPS deployment support.
-</p>
-<p align="center">
-  If you find this template useful, consider giving it a ⭐
 </p>
 <p>
 <code>Discord.js v14</code>
