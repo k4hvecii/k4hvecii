@@ -29,7 +29,7 @@ I'm a student developer from Türkiye focused on learning how systems work, buil
 ## Featured Project
 <table>
 <tr>
-<td width="100%" align="left" valign="top">
+<td width="68%" valign="top">
 <h3><a href="https://github.com/k4hvecii/discordjs-v14-production-template">Discord.js v14 Production Template</a></h3>
 <p>
 A production-oriented Discord.js v14 bot template built with native ES Modules,
@@ -44,11 +44,27 @@ structured logging, i18n tooling, and Linux/VPS deployment support.
 <code>PM2</code>
 <code>ES Modules</code>
 </p>
-<p>
 <a href="https://github.com/k4hvecii/discordjs-v14-production-template">
 <img src="https://img.shields.io/badge/View_Project-111827?style=for-the-badge&logo=github&logoColor=white" alt="View Project" />
 </a>
-</p>
+</td>
+<td width="32%" align="center" valign="middle">
+<h3>Repository Stats</h3>
+<a href="https://github.com/k4hvecii/discordjs-v14-production-template/stargazers">
+<img src="https://img.shields.io/github/stars/k4hvecii/discordjs-v14-production-template?style=for-the-badge&logo=github&label=Stars" alt="Stars" />
+</a>
+<br>
+<a href="https://github.com/k4hvecii/discordjs-v14-production-template/forks">
+<img src="https://img.shields.io/github/forks/k4hvecii/discordjs-v14-production-template?style=for-the-badge&logo=github&label=Forks" alt="Forks" />
+</a>
+<br>
+<a href="https://github.com/k4hvecii/discordjs-v14-production-template/issues">
+<img src="https://img.shields.io/github/issues/k4hvecii/discordjs-v14-production-template?style=for-the-badge&logo=github&label=Issues" alt="Issues" />
+</a>
+<br>
+<img src="https://img.shields.io/github/license/k4hvecii/discordjs-v14-production-template?style=for-the-badge&label=License" alt="License" />
+<br>
+<img src="https://img.shields.io/github/last-commit/k4hvecii/discordjs-v14-production-template?style=for-the-badge&label=Last%20Commit" alt="Last Commit" />
 </td>
 </tr>
 </table>
