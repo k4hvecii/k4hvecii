@@ -49,22 +49,28 @@ structured logging, i18n tooling, and Linux/VPS deployment support.
 </a>
 </td>
 <td width="32%" align="center" valign="middle">
-<h3>Repository Stats</h3>
-<a href="https://github.com/k4hvecii/discordjs-v14-production-template/stargazers">
-<img src="https://img.shields.io/github/stars/k4hvecii/discordjs-v14-production-template?style=for-the-badge&logo=github&label=Stars" alt="Stars" />
-</a>
+<h3>Project Status</h3>
+
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status" />
 <br>
-<a href="https://github.com/k4hvecii/discordjs-v14-production-template/forks">
-<img src="https://img.shields.io/github/forks/k4hvecii/discordjs-v14-production-template?style=for-the-badge&logo=github&label=Forks" alt="Forks" />
-</a>
+
+<img src="https://img.shields.io/badge/Visibility-Public-2ea44f?style=for-the-badge&logo=github" alt="Visibility" />
 <br>
-<a href="https://github.com/k4hvecii/discordjs-v14-production-template/issues">
-<img src="https://img.shields.io/github/issues/k4hvecii/discordjs-v14-production-template?style=for-the-badge&logo=github&label=Issues" alt="Issues" />
-</a>
+
+<img src="https://img.shields.io/badge/Template-Enabled-5865F2?style=for-the-badge" alt="Template Repository" />
 <br>
-<img src="https://img.shields.io/github/license/k4hvecii/discordjs-v14-production-template?style=for-the-badge&label=License" alt="License" />
+
+<img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
 <br>
-<img src="https://img.shields.io/github/last-commit/k4hvecii/discordjs-v14-production-template?style=for-the-badge&label=Last%20Commit" alt="Last Commit" />
+
+<img src="https://img.shields.io/badge/Runtime-Node.js%2024-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 24" />
+<br>
+
+<img src="https://img.shields.io/badge/Framework-Discord.js%20v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14" />
+<br>
+
+<img src="https://img.shields.io/github/last-commit/k4hvecii/discordjs-v14-production-template?style=for-the-badge&label=Last%20Update" alt="Last Update" />
+
 </td>
 </tr>
 </table>
