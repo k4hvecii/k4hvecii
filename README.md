@@ -27,30 +27,30 @@ I'm a student developer from Türkiye focused on learning how systems work, buil
 > I don't have a plan, but I have kebab.
 
 ## Featured Project
-
 <table>
-  <tr>
-    <td valign="top">
-      <h3>
-        <a href="https://github.com/k4hvecii/discordjs-v14-production-template">
-          Discord.js v14 Production Template
-        </a>
-      </h3>
-      <p>
-        A production-oriented Discord.js v14 bot template built with native ES Modules,
-        SQLite, Winston, Zod, PM2, testing, health checks, migrations, structured logging,
-        i18n tooling, and Linux/VPS deployment support.
-      </p>
-      <p>
-        <code>Discord.js v14</code>
-        <code>Node.js</code>
-        <code>JavaScript</code>
-        <code>SQLite</code>
-        <code>PM2</code>
-        <code>ESM</code>
-      </p>
-    </td>
-  </tr>
+<tr>
+<td width="100%" align="left" valign="top">
+<h3><a href="https://github.com/k4hvecii/discordjs-v14-production-template">Discord.js v14 Production Template</a></h3>
+<p>
+A production-oriented Discord.js v14 bot template built with native ES Modules,
+SQLite, Winston, Zod, PM2, automated testing, health checks, database migrations,
+structured logging, i18n tooling, and Linux/VPS deployment support.
+</p>
+<p>
+<code>Discord.js v14</code>
+<code>Node.js</code>
+<code>JavaScript</code>
+<code>SQLite</code>
+<code>PM2</code>
+<code>ES Modules</code>
+</p>
+<p>
+<a href="https://github.com/k4hvecii/discordjs-v14-production-template">
+<img src="https://img.shields.io/badge/View_Project-111827?style=for-the-badge&logo=github&logoColor=white" alt="View Project" />
+</a>
+</p>
+</td>
+</tr>
 </table>
 
 ## Tech Stack
