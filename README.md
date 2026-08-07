@@ -1,8 +1,10 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="K4hveci — Student Developer" />
-</div>
 
-<br />
+# K4hvecii
+
+### Student Developer • Cybersecurity • Node.js • Discord.js
+
+</div>
 
 <div align="center">
   <a href="https://github.com/k4hvecii">
@@ -69,22 +71,7 @@ Cybersecurity       → networking, system fundamentals, controlled lab projects
 Development         → clean code, debugging, automation, maintainable systems
 ```
 
-## GitHub
-
-<div align="center">
-  <img
-    height="175"
-    src="https://github-readme-stats.vercel.app/api?username=k4hvecii&show_icons=true&hide_border=true&theme=transparent&title_color=8B7CFF&icon_color=55D6FF&text_color=9DA9C7&rank_icon=github"
-    alt="k4hvecii's GitHub statistics"
-  />
-  <img
-    height="175"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=k4hvecii&layout=compact&langs_count=8&hide_border=true&theme=transparent&title_color=8B7CFF&text_color=9DA9C7"
-    alt="k4hvecii's most used languages"
-  />
-</div>
-
-<br />
+## Explore
 
 <div align="center">
   <a href="https://github.com/k4hvecii?tab=repositories">
