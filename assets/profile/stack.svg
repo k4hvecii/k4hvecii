@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">K4hveci stack</title>
+  <desc id="desc">Core tools and engineering preferences.</desc>
+  <rect width="1200" height="430" rx="28" fill="#0b0907"/>
+  <rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="#2b211a"/>
+  <text x="58" y="62" fill="#b18b69" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">02 / STACK</text>
+  <text x="58" y="112" fill="#f0e4d6" font-size="34" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">The everyday toolbox</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
+    <rect x="58" y="160" width="225" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="84" y="196" fill="#ddcdbd">Node.js / TypeScript</text>
+    <rect x="297" y="160" width="180" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="323" y="196" fill="#ddcdbd">discord.js</text>
+    <rect x="491" y="160" width="180" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="517" y="196" fill="#ddcdbd">MongoDB</text>
+    <rect x="685" y="160" width="180" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="711" y="196" fill="#ddcdbd">Linux</text>
+    <rect x="879" y="160" width="263" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="905" y="196" fill="#ddcdbd">systemd / Nginx</text>
+
+    <rect x="58" y="236" width="180" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="84" y="272" fill="#ddcdbd">Git / GitHub</text>
+    <rect x="252" y="236" width="220" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="278" y="272" fill="#ddcdbd">GitHub Actions</text>
+    <rect x="486" y="236" width="180" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="512" y="272" fill="#ddcdbd">Bash</text>
+    <rect x="680" y="236" width="222" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="706" y="272" fill="#ddcdbd">HTML / CSS / JS</text>
+    <rect x="916" y="236" width="226" height="58" rx="14" fill="#14100d" stroke="#33271f"/><text x="942" y="272" fill="#ddcdbd">FFmpeg / Opus</text>
+  </g>
+
+  <line x1="58" y1="338" x2="1142" y2="338" stroke="#2b211a"/>
+  <text x="58" y="378" fill="#8f7866" font-size="16" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Preference: simple architecture, observable behavior, clean UI, fewer moving parts.</text>
+</svg>
