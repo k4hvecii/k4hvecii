@@ -27,6 +27,14 @@ care about      → reliability · performance · security · clean UX
 usually with    → coffee nearby and journalctl open
 ```
 
+<img src="./assets/profile/systems.svg" width="100%" alt="K4hveci current private systems" />
+
+<br />
+
+## `public / surface`
+
+The public side stays intentionally small. I publish pieces that are useful on their own and keep the operational systems private.
+
 <img src="./assets/profile/projects.svg" width="100%" alt="K4hveci public projects and current focus" />
 
 <div align="center">
@@ -67,5 +75,5 @@ I don't have a plan, but I have kebab.
 <img src="./assets/profile/footer.svg" width="100%" alt="K4hveci Coffee Terminal footer" />
 
 <div align="center">
-  <sub>K4 SYSTEM / profile surface · built for GitHub, kept intentionally small.</sub>
+  <sub>K4 SYSTEM / profile surface · same language as the coffee-terminal site.</sub>
 </div>
