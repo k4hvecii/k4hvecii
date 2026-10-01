@@ -1,0 +1,45 @@
+name: Refresh K4 Profile Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "assets/profile/profile.template.svg"
+      - "scripts/render-profile.py"
+      - ".github/workflows/profile-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: k4-profile-stats
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Render profile stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/render-profile.py
+
+      - name: Commit refreshed profile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile/profile.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh profile coding stats"
+            git pull --rebase --autostash origin main
+            git push
+          else
+            echo "Profile stats are already current."
+          fi
