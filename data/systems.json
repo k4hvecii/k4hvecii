@@ -11,7 +11,10 @@
       "Voice"
     ],
     "status": "development",
-    "visibility": "private"
+    "visibility": "private",
+    "name": "Flask",
+    "description_tr": "Genel amaçlı Discord sistemi: yönetim, topluluk araçları, istatistikler ve native voice müzik altyapısı.",
+    "description_en": "General-purpose Discord system with management, community tools, stats and native voice music."
   },
   {
     "id": "yhmod",
@@ -25,7 +28,10 @@
       "Linux"
     ],
     "status": "active",
-    "visibility": "private"
+    "visibility": "private",
+    "name": "YHMod",
+    "description_tr": "Yazılım Hub için moderasyon, güvenlik, loglama ve yönetim akışını tek merkezde tutan sistem.",
+    "description_en": "Moderation system for Yazılım Hub that keeps security, logging and management in one place."
   },
   {
     "id": "yh-ticket",
@@ -38,7 +44,10 @@
       "MongoDB"
     ],
     "status": "building",
-    "visibility": "private"
+    "visibility": "private",
+    "name": "YH Ticket",
+    "description_tr": "Kuyruk, claim, private thread, transcript ve kategori bazlı ayarlarla panel odaklı destek sistemi.",
+    "description_en": "Panel-first support system with queueing, claim flow, private threads, transcripts and category settings."
   },
   {
     "id": "vps-control",
@@ -52,6 +61,9 @@
       "Operations"
     ],
     "status": "private",
-    "visibility": "private"
+    "visibility": "private",
+    "name": "VPS Control",
+    "description_tr": "Servisler, sağlık, veritabanı ve operasyon akışları için kişisel Linux yönetim paneli.",
+    "description_en": "Private Linux control panel for services, health, databases and operational workflows."
   }
 ]
