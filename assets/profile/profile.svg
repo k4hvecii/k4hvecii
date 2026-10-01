@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1960" viewBox="0 0 1200 1960" role="img" aria-labelledby="title desc">
+  <title id="title">K4hveci — K4 System profile</title>
+  <desc id="desc">A single-piece coffee terminal profile for K4hveci: systems, public projects, stack and contact.</desc>
+
+  <rect width="1200" height="1960" rx="28" fill="#0b0907"/>
+  <rect x="1" y="1" width="1198" height="1958" rx="27" fill="none" stroke="#2c211a"/>
+
+  <!-- top chrome -->
+  <circle cx="48" cy="46" r="6" fill="#8a654c"/>
+  <circle cx="70" cy="46" r="6" fill="#6f5a44"/>
+  <circle cx="92" cy="46" r="6" fill="#526653"/>
+  <text x="122" y="52" fill="#7f6958" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">k4 / profile-surface</text>
+  <text x="1144" y="52" text-anchor="end" fill="#7fa28a" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">ONLINE</text>
+
+  <!-- hero -->
+  <text x="58" y="132" fill="#b18b69" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">k4hveci@coffee:~$ whoami</text>
+  <text x="58" y="222" fill="#f2e7dc" font-size="76" font-weight="800" letter-spacing="2" font-family="Inter, ui-sans-serif, system-ui, sans-serif">K4HVE.CI</text>
+  <text x="60" y="266" fill="#b8a493" font-size="23" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Discord systems · backend tooling · Linux infrastructure</text>
+  <text x="60" y="304" fill="#806d5e" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">quiet interfaces / clear logs / production-minded systems</text>
+
+  <!-- terminal -->
+  <rect x="758" y="104" width="384" height="218" rx="18" fill="#12100d" stroke="#30241c"/>
+  <line x1="758" y1="148" x2="1142" y2="148" stroke="#2a211a"/>
+  <text x="784" y="132" fill="#756253" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">k4-system/status</text>
+  <text x="1116" y="132" text-anchor="end" fill="#7fa28a" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">active</text>
+  <text x="784" y="182" fill="#6f5a49" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ systemctl status k4</text>
+  <text x="784" y="208" fill="#7fa28a" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">● active (running)</text>
+  <text x="784" y="244" fill="#b18b69" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">runtime</text>
+  <text x="870" y="244" fill="#d9c8b9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">node / typescript</text>
+  <text x="784" y="270" fill="#b18b69" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">ops</text>
+  <text x="870" y="270" fill="#d9c8b9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">linux / systemd / nginx</text>
+  <text x="784" y="296" fill="#b18b69" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">fuel</text>
+  <text x="870" y="296" fill="#d9c8b9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">coffee</text>
+
+  <!-- status strip -->
+  <line x1="58" y1="370" x2="1142" y2="370" stroke="#2a211a"/>
+  <text x="58" y="406" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">MODE</text>
+  <text x="58" y="432" fill="#f0e4d6" font-size="17" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">building / debugging / shipping</text>
+  <line x1="342" y1="392" x2="342" y2="446" stroke="#2a211a"/>
+  <text x="382" y="406" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">FOCUS</text>
+  <text x="382" y="432" fill="#f0e4d6" font-size="17" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Discord systems · backend</text>
+  <line x1="700" y1="392" x2="700" y2="446" stroke="#2a211a"/>
+  <text x="740" y="406" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">RUNTIME</text>
+  <text x="740" y="432" fill="#f0e4d6" font-size="17" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Linux · systemd · Nginx</text>
+
+  <!-- systems -->
+  <line x1="58" y1="492" x2="1142" y2="492" stroke="#2a211a"/>
+  <text x="58" y="538" fill="#b18b69" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">01 / CURRENT SYSTEMS</text>
+  <text x="58" y="588" fill="#f2e7dc" font-size="36" font-weight="780" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Production-shaped work</text>
+  <text x="58" y="620" fill="#8f7866" font-size="16" font-family="Inter, ui-sans-serif, system-ui, sans-serif">What I am actively building, refactoring and operating.</text>
+
+  <rect x="58" y="660" width="520" height="170" rx="18" fill="#12100d" stroke="#2d231c"/>
+  <text x="84" y="694" fill="#7fa28a" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">FLASK / DEVELOPMENT</text>
+  <text x="84" y="736" fill="#f0e4d6" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">General-purpose Discord system</text>
+  <text x="84" y="772" fill="#9a8371" font-size="15" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Management, community, stats and native voice music.</text>
+  <text x="84" y="806" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">TypeScript · discord.js · MongoDB · Voice</text>
+
+  <rect x="622" y="660" width="520" height="170" rx="18" fill="#12100d" stroke="#2d231c"/>
+  <text x="648" y="694" fill="#7fa28a" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">YHMOD / ACTIVE</text>
+  <text x="648" y="736" fill="#f0e4d6" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Moderation and security</text>
+  <text x="648" y="772" fill="#9a8371" font-size="15" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Logs, settings, safety flows and server operations.</text>
+  <text x="648" y="806" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">TypeScript · Moderation · MongoDB · Linux</text>
+
+  <rect x="58" y="850" width="520" height="170" rx="18" fill="#12100d" stroke="#2d231c"/>
+  <text x="84" y="884" fill="#7fa28a" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">YH TICKET / BUILDING</text>
+  <text x="84" y="926" fill="#f0e4d6" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Panel-first support workflow</text>
+  <text x="84" y="962" fill="#9a8371" font-size="15" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Queue, claim, private threads, transcripts and settings.</text>
+  <text x="84" y="996" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Threads · Components · MongoDB</text>
+
+  <rect x="622" y="850" width="520" height="170" rx="18" fill="#12100d" stroke="#2d231c"/>
+  <text x="648" y="884" fill="#7fa28a" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">VPS CONTROL / PRIVATE</text>
+  <text x="648" y="926" fill="#f0e4d6" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Linux operations surface</text>
+  <text x="648" y="962" fill="#9a8371" font-size="15" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Services, health, databases and operational control.</text>
+  <text x="648" y="996" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Node.js · systemd · Nginx · Operations</text>
+
+  <!-- public -->
+  <line x1="58" y1="1084" x2="1142" y2="1084" stroke="#2a211a"/>
+  <text x="58" y="1130" fill="#b18b69" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">02 / PUBLIC SURFACE</text>
+  <text x="58" y="1180" fill="#f2e7dc" font-size="36" font-weight="780" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Things I publish</text>
+  <text x="58" y="1212" fill="#8f7866" font-size="16" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Small public pieces that are useful on their own.</text>
+
+  <rect x="58" y="1252" width="520" height="144" rx="18" fill="#12100d" stroke="#2d231c"/>
+  <text x="84" y="1286" fill="#b18b69" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">PUBLIC / TEMPLATE</text>
+  <text x="84" y="1328" fill="#f0e4d6" font-size="20" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">discordjs-v14-production-template</text>
+  <text x="84" y="1364" fill="#9a8371" font-size="14" font-family="Inter, ui-sans-serif, system-ui, sans-serif">A practical baseline for Linux/VPS deployment.</text>
+
+  <rect x="622" y="1252" width="520" height="144" rx="18" fill="#12100d" stroke="#2d231c"/>
+  <text x="648" y="1286" fill="#b18b69" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">PUBLIC / WEB</text>
+  <text x="648" y="1328" fill="#f0e4d6" font-size="20" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">k4hvecii.github.io</text>
+  <text x="648" y="1364" fill="#9a8371" font-size="14" font-family="Inter, ui-sans-serif, system-ui, sans-serif">K4 System / coffee-terminal site.</text>
+
+  <rect x="58" y="1416" width="520" height="144" rx="18" fill="#12100d" stroke="#2d231c"/>
+  <text x="84" y="1450" fill="#b18b69" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">PUBLIC / TOOLING</text>
+  <text x="84" y="1492" fill="#f0e4d6" font-size="20" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">badge-discord</text>
+  <text x="84" y="1528" fill="#9a8371" font-size="14" font-family="Inter, ui-sans-serif, system-ui, sans-serif">A compact experiment in the public toolbox.</text>
+
+  <rect x="622" y="1416" width="520" height="144" rx="18" fill="#12100d" stroke="#2d231c"/>
+  <text x="648" y="1450" fill="#b18b69" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">DIRECTION</text>
+  <text x="648" y="1492" fill="#f0e4d6" font-size="20" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Systems over screenshots</text>
+  <text x="648" y="1528" fill="#9a8371" font-size="14" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Bots, backend, automation and control surfaces.</text>
+
+  <!-- stack -->
+  <line x1="58" y1="1624" x2="1142" y2="1624" stroke="#2a211a"/>
+  <text x="58" y="1670" fill="#b18b69" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">03 / TOOLBOX</text>
+  <text x="58" y="1718" fill="#f2e7dc" font-size="34" font-weight="780" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Everyday stack</text>
+
+  <text x="58" y="1768" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">RUNTIME</text>
+  <text x="176" y="1768" fill="#d8c7b8" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Node.js · TypeScript · JavaScript</text>
+
+  <text x="58" y="1804" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">DISCORD</text>
+  <text x="176" y="1804" fill="#d8c7b8" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">discord.js · @discordjs/voice · Components</text>
+
+  <text x="58" y="1840" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">DATA</text>
+  <text x="176" y="1840" fill="#d8c7b8" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">MongoDB · SQLite · JSON stores</text>
+
+  <text x="622" y="1768" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">OPS</text>
+  <text x="710" y="1768" fill="#d8c7b8" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Linux · systemd · Nginx · FFmpeg</text>
+
+  <text x="622" y="1804" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">WORKFLOW</text>
+  <text x="710" y="1804" fill="#d8c7b8" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Git · GitHub Actions · Bash · VS Code</text>
+
+  <text x="622" y="1840" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">CONTACT</text>
+  <text x="710" y="1840" fill="#d8c7b8" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">contact@k4hveci.info</text>
+
+  <!-- footer -->
+  <line x1="58" y1="1884" x2="1142" y2="1884" stroke="#2a211a"/>
+  <text x="58" y="1924" fill="#7c6655" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">K4 SYSTEM / build. debug. simplify. ship.</text>
+  <text x="1142" y="1924" text-anchor="end" fill="#5f4f43" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">coffee terminal</text>
+</svg>
