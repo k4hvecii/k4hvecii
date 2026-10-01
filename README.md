@@ -1,79 +1,17 @@
-<div align="center">
+<img src="assets/profile/hero.svg" width="100%" alt="K4hveci — Coffee Terminal" />
 
-<img src="./assets/profile/hero.svg" width="100%" alt="K4hveci — Coffee Terminal" />
+<img src="assets/profile/status.svg" width="100%" alt="K4 System status" />
 
-<br />
+<p align="center">
+  <a href="https://k4hvecii.github.io"><img src="assets/profile/link-site.svg" width="32%" alt="Open K4hveci site" /></a>
+  <a href="https://github.com/k4hvecii"><img src="assets/profile/link-github.svg" width="32%" alt="Open K4hveci GitHub" /></a>
+  <a href="mailto:contact@k4hveci.info"><img src="assets/profile/link-mail.svg" width="32%" alt="Contact K4hveci" /></a>
+</p>
 
-<a href="https://k4hvecii.github.io"><b>portfolio</b></a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://github.com/k4hvecii?tab=repositories"><b>repositories</b></a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="mailto:contact@k4hveci.info"><b>contact</b></a>
+<img src="assets/profile/systems.svg" width="100%" alt="K4hveci current systems" />
 
-</div>
+<img src="assets/profile/projects.svg" width="100%" alt="K4hveci public build surface" />
 
-<br />
+<img src="assets/profile/stack.svg" width="100%" alt="K4hveci stack" />
 
-## `profile / now`
-
-I build Discord systems, backend tooling, Linux services and small control surfaces that are meant to keep working after the first demo.
-
-My default approach is simple: fewer moving parts, clear logs, practical automation and interfaces that stay out of the way.
-
-```text
-current mode    → building / debugging / shipping
-working around  → Discord systems · backend · Linux / VPS
-care about      → reliability · performance · security · clean UX
-usually with    → coffee nearby and journalctl open
-```
-
-<img src="./assets/profile/systems.svg" width="100%" alt="K4hveci current private systems" />
-
-<br />
-
-## `public / surface`
-
-The public side stays intentionally small. I publish pieces that are useful on their own and keep the operational systems private.
-
-<img src="./assets/profile/projects.svg" width="100%" alt="K4hveci public projects and current focus" />
-
-<div align="center">
-
-<a href="https://github.com/k4hvecii/discordjs-v14-production-template">discordjs-v14-production-template</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://github.com/k4hvecii/k4hvecii.github.io">coffee-terminal site</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://github.com/k4hvecii/badge-discord">badge-discord</a>
-
-</div>
-
-<br />
-
-<img src="./assets/profile/stack.svg" width="100%" alt="K4hveci technology stack" />
-
-## `operating principles`
-
-- Build for the second run, not only the first screenshot.
-- Prefer explicit behavior over invisible magic.
-- Keep production logs useful and quiet.
-- Reduce UI noise before adding another feature.
-- Fix the system, then polish the surface.
-
-<details>
-<summary><code>small terminal note</code></summary>
-
-<br />
-
-```text
-I don't have a plan, but I have kebab.
-```
-
-</details>
-
-<br />
-
-<img src="./assets/profile/footer.svg" width="100%" alt="K4hveci Coffee Terminal footer" />
-
-<div align="center">
-  <sub>K4 SYSTEM / profile surface · same language as the coffee-terminal site.</sub>
-</div>
+<img src="assets/profile/footer.svg" width="100%" alt="K4hveci Coffee Terminal footer" />
