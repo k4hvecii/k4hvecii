@@ -233,8 +233,10 @@ for week_index, week in enumerate(calendar["weeks"][-53:]):
         x = x0 + week_index * step
         y = y0 + row * 18
         title = html.escape(f"{day['date']}: {count} contributions")
+        delay = min(980, week_index * 18 + row * 8)
         heatmap.append(
-            f'<rect x="{x}" y="{y}" width="{size}" height="{size}" rx="3" '
+            f'<rect class="heat-cell" style="animation-delay:{delay}ms" '
+            f'x="{x}" y="{y}" width="{size}" height="{size}" rx="3" '
             f'fill="{colors[level(count)]}"><title>{title}</title></rect>'
         )
 

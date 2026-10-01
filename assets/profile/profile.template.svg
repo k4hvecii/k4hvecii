@@ -2,23 +2,143 @@
   <title id="title">K4hveci — K4 System profile</title>
   <desc id="desc">A single-piece coffee terminal profile for K4hveci: systems, public projects, stack and contact.</desc>
 
+  <style>
+    .k4-section {
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .k4-chrome { animation: k4Fade .65s ease-out both; }
+      .k4-hero { animation: k4Rise .8s .08s cubic-bezier(.16,1,.3,1) both; }
+      .k4-terminal {
+        animation:
+          k4TerminalIn .9s .18s cubic-bezier(.16,1,.3,1) both,
+          k4Float 6.5s 1.2s ease-in-out infinite;
+      }
+      .k4-status { animation: k4Rise .75s .22s cubic-bezier(.16,1,.3,1) both; }
+      .k4-systems { animation: k4Rise .78s .30s cubic-bezier(.16,1,.3,1) both; }
+      .k4-public { animation: k4Rise .78s .38s cubic-bezier(.16,1,.3,1) both; }
+      .k4-stack { animation: k4Rise .78s .46s cubic-bezier(.16,1,.3,1) both; }
+      .k4-stats { animation: k4Rise .8s .54s cubic-bezier(.16,1,.3,1) both; }
+
+      .k4-online {
+        animation: k4Online 2.4s ease-in-out infinite;
+      }
+
+      .k4-title {
+        animation: k4TitleGlow 5.5s ease-in-out infinite;
+      }
+
+      .k4-terminal-scan {
+        animation: k4Scan 5.8s 1.2s linear infinite;
+      }
+
+      .k4-terminal-dot {
+        animation: k4Dot 2.8s ease-in-out infinite;
+      }
+      .k4-terminal-dot:nth-of-type(2) { animation-delay: .18s; }
+      .k4-terminal-dot:nth-of-type(3) { animation-delay: .36s; }
+
+      .heat-cell {
+        opacity: 0;
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: k4Heat .34s cubic-bezier(.16,1,.3,1) forwards;
+      }
+
+      .k4-stat-value {
+        animation: k4StatGlow 4.2s ease-in-out infinite;
+      }
+
+      .k4-footer-line {
+        stroke-dasharray: 1084;
+        stroke-dashoffset: 1084;
+        animation: k4Draw 1.25s .72s cubic-bezier(.16,1,.3,1) forwards;
+      }
+
+      @keyframes k4Fade {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+      @keyframes k4Rise {
+        from { opacity: 0; transform: translateY(18px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes k4TerminalIn {
+        from { opacity: 0; transform: translate(18px, 14px) scale(.985); }
+        to { opacity: 1; transform: translate(0, 0) scale(1); }
+      }
+
+      @keyframes k4Float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+
+      @keyframes k4Online {
+        0%, 100% { opacity: .66; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes k4TitleGlow {
+        0%, 100% { opacity: .96; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes k4Scan {
+        0% { transform: translateY(-10px); opacity: 0; }
+        10% { opacity: .16; }
+        75% { opacity: .08; }
+        100% { transform: translateY(190px); opacity: 0; }
+      }
+
+      @keyframes k4Dot {
+        0%, 100% { opacity: .55; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes k4Heat {
+        from { opacity: 0; transform: scale(.45); }
+        to { opacity: 1; transform: scale(1); }
+      }
+
+      @keyframes k4StatGlow {
+        0%, 100% { opacity: .92; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes k4Draw {
+        to { stroke-dashoffset: 0; }
+      }
+    }
+  </style>
+
   <rect width="1200" height="2460" rx="28" fill="#0b0907"/>
   <rect x="1" y="1" width="1198" height="2458" rx="27" fill="none" stroke="#2c211a"/>
 
   <!-- top chrome -->
-  <circle cx="48" cy="46" r="6" fill="#8a654c"/>
-  <circle cx="70" cy="46" r="6" fill="#6f5a44"/>
-  <circle cx="92" cy="46" r="6" fill="#526653"/>
+  <g class="k4-section k4-chrome">
+  <circle class="k4-terminal-dot" cx="48" cy="46" r="6" fill="#8a654c"/>
+  <circle class="k4-terminal-dot" cx="70" cy="46" r="6" fill="#6f5a44"/>
+  <circle class="k4-terminal-dot" cx="92" cy="46" r="6" fill="#526653"/>
   <text x="122" y="52" fill="#7f6958" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">k4 / profile-surface</text>
-  <text x="1144" y="52" text-anchor="end" fill="#7fa28a" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">ONLINE</text>
+  <text class="k4-online" x="1144" y="52" text-anchor="end" fill="#7fa28a" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">ONLINE</text>
+
+  </g>
 
   <!-- hero -->
+  <g class="k4-section k4-hero">
   <text x="58" y="132" fill="#b18b69" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">k4hveci@coffee:~$ whoami</text>
-  <text x="58" y="222" fill="#f2e7dc" font-size="76" font-weight="800" letter-spacing="2" font-family="Inter, ui-sans-serif, system-ui, sans-serif">K4HVE.CI</text>
+  <text class="k4-title" x="58" y="222" fill="#f2e7dc" font-size="76" font-weight="800" letter-spacing="2" font-family="Inter, ui-sans-serif, system-ui, sans-serif">K4HVE.CI</text>
   <text x="60" y="266" fill="#b8a493" font-size="23" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{PROFILE_TAGLINE}}</text>
   <text x="60" y="304" fill="#806d5e" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">{{PROFILE_PRINCIPLE}}</text>
 
+  </g>
+
   <!-- terminal -->
+  <g class="k4-section k4-terminal">
   <rect x="758" y="104" width="384" height="218" rx="18" fill="#12100d" stroke="#30241c"/>
   <line x1="758" y1="148" x2="1142" y2="148" stroke="#2a211a"/>
   <text x="784" y="132" fill="#756253" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">k4-system/status</text>
@@ -32,7 +152,11 @@
   <text x="784" y="296" fill="#b18b69" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">fuel</text>
   <text x="870" y="296" fill="#d9c8b9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">coffee</text>
 
+    <rect class="k4-terminal-scan" x="760" y="148" width="380" height="22" rx="11" fill="#b18b69" opacity="0"/>
+  </g>
+
   <!-- status strip -->
+  <g class="k4-section k4-status">
   <line x1="58" y1="370" x2="1142" y2="370" stroke="#2a211a"/>
   <text x="58" y="406" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">MODE</text>
   <text x="58" y="432" fill="#f0e4d6" font-size="17" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{PROFILE_MODE}}</text>
@@ -43,7 +167,10 @@
   <text x="740" y="406" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">RUNTIME</text>
   <text x="740" y="432" fill="#f0e4d6" font-size="17" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{PROFILE_RUNTIME}}</text>
 
+  </g>
+
   <!-- systems -->
+  <g class="k4-section k4-systems">
   <line x1="58" y1="492" x2="1142" y2="492" stroke="#2a211a"/>
   <text x="58" y="538" fill="#b18b69" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">01 / CURRENT SYSTEMS</text>
   <text x="58" y="588" fill="#f2e7dc" font-size="36" font-weight="780" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Production-shaped work</text>
@@ -73,7 +200,10 @@
   <text x="648" y="962" fill="#9a8371" font-size="15" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{SYS3_DESC}}</text>
   <text x="648" y="996" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">{{SYS3_STACK}}</text>
 
+  </g>
+
   <!-- public -->
+  <g class="k4-section k4-public">
   <line x1="58" y1="1084" x2="1142" y2="1084" stroke="#2a211a"/>
   <text x="58" y="1130" fill="#b18b69" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">02 / PUBLIC SURFACE</text>
   <text x="58" y="1180" fill="#f2e7dc" font-size="36" font-weight="780" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Things I publish</text>
@@ -99,7 +229,10 @@
   <text x="648" y="1492" fill="#f0e4d6" font-size="20" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{PUB3_TITLE}}</text>
   <text x="648" y="1528" fill="#9a8371" font-size="14" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{PUB3_DESC}}</text>
 
+  </g>
+
   <!-- stack -->
+  <g class="k4-section k4-stack">
   <line x1="58" y1="1624" x2="1142" y2="1624" stroke="#2a211a"/>
   <text x="58" y="1670" fill="#b18b69" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">03 / TOOLBOX</text>
   <text x="58" y="1718" fill="#f2e7dc" font-size="34" font-weight="780" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Everyday stack</text>
@@ -122,35 +255,38 @@
   <text x="622" y="1840" fill="#6f5a49" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">CONTACT</text>
   <text x="710" y="1840" fill="#d8c7b8" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">contact@k4hveci.info</text>
 
+  </g>
+
   <!-- coding stats -->
-  <line x1="58" y1="1884" x2="1142" y2="1884" stroke="#2a211a"/>
+  <g class="k4-section k4-stats">
+  <line class="k4-footer-line" x1="58" y1="1884" x2="1142" y2="1884" stroke="#2a211a"/>
   <text x="58" y="1930" fill="#b18b69" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">04 / CODING STATS</text>
   <text x="58" y="1980" fill="#f2e7dc" font-size="34" font-weight="780" font-family="Inter, ui-sans-serif, system-ui, sans-serif">GitHub activity</text>
   <text x="58" y="2012" fill="#8f7866" font-size="16" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Last 365 days · refreshed automatically from GitHub.</text>
 
   <rect x="58" y="2052" width="166" height="108" rx="16" fill="#12100d" stroke="#2d231c"/>
   <text x="78" y="2082" fill="#6f5a49" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">CONTRIBUTIONS</text>
-  <text x="78" y="2130" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{CONTRIB_TOTAL}}</text>
+  <text x="78" y="2130" class="k4-stat-value" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{CONTRIB_TOTAL}}</text>
 
   <rect x="241" y="2052" width="166" height="108" rx="16" fill="#12100d" stroke="#2d231c"/>
   <text x="261" y="2082" fill="#6f5a49" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">COMMITS</text>
-  <text x="261" y="2130" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{COMMITS}}</text>
+  <text x="261" y="2130" class="k4-stat-value" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{COMMITS}}</text>
 
   <rect x="424" y="2052" width="166" height="108" rx="16" fill="#12100d" stroke="#2d231c"/>
   <text x="444" y="2082" fill="#6f5a49" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">PULL REQUESTS</text>
-  <text x="444" y="2130" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{PRS}}</text>
+  <text x="444" y="2130" class="k4-stat-value" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{PRS}}</text>
 
   <rect x="607" y="2052" width="166" height="108" rx="16" fill="#12100d" stroke="#2d231c"/>
   <text x="627" y="2082" fill="#6f5a49" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">PUBLIC REPOS</text>
-  <text x="627" y="2130" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{REPOS}}</text>
+  <text x="627" y="2130" class="k4-stat-value" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{REPOS}}</text>
 
   <rect x="790" y="2052" width="166" height="108" rx="16" fill="#12100d" stroke="#2d231c"/>
   <text x="810" y="2082" fill="#6f5a49" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">STARS</text>
-  <text x="810" y="2130" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{STARS}}</text>
+  <text x="810" y="2130" class="k4-stat-value" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{STARS}}</text>
 
   <rect x="973" y="2052" width="169" height="108" rx="16" fill="#12100d" stroke="#2d231c"/>
   <text x="993" y="2082" fill="#6f5a49" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">BEST STREAK / 1Y</text>
-  <text x="993" y="2130" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{STREAK}}d</text>
+  <text x="993" y="2130" class="k4-stat-value" fill="#f0e4d6" font-size="28" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, sans-serif">{{STREAK}}d</text>
 
   <rect x="58" y="2184" width="1084" height="178" rx="18" fill="#12100d" stroke="#2d231c"/>
   <text x="82" y="2214" fill="#6f5a49" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">CONTRIBUTION MAP</text>
@@ -161,4 +297,5 @@
 
   <text x="58" y="2398" fill="#7c6655" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">K4 SYSTEM / build. debug. simplify. ship.</text>
   <text x="1142" y="2398" text-anchor="end" fill="#5f4f43" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">stats synced {{UPDATED}}</text>
+  </g>
 </svg>
