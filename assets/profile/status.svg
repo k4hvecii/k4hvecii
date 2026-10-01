@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="155" viewBox="0 0 1200 155" role="img" aria-labelledby="t d">
+<title id="t">K4 System status</title><desc id="d">Current focus, runtime and workflow for K4hveci.</desc>
+<rect width="1200" height="155" rx="22" fill="#0b0907"/><rect x="1" y="1" width="1198" height="153" rx="21" fill="none" stroke="#2b211a"/>
+<circle cx="48" cy="43" r="6" fill="#7fa28a"/><text x="66" y="49" fill="#a6907c" font-size="13" font-family="ui-monospace,monospace">SYSTEMS ONLINE</text>
+<line x1="330" y1="28" x2="330" y2="127" stroke="#2b211a"/><line x1="620" y1="28" x2="620" y2="127" stroke="#2b211a"/><line x1="905" y1="28" x2="905" y2="127" stroke="#2b211a"/>
+<text x="48" y="92" fill="#6f5a49" font-size="11" font-family="ui-monospace,monospace">MODE</text><text x="48" y="116" fill="#f0e4d6" font-size="16" font-weight="700" font-family="Inter,system-ui,sans-serif">building / shipping</text>
+<text x="364" y="92" fill="#6f5a49" font-size="11" font-family="ui-monospace,monospace">FOCUS</text><text x="364" y="116" fill="#f0e4d6" font-size="16" font-weight="700" font-family="Inter,system-ui,sans-serif">Discord systems · backend</text>
+<text x="654" y="92" fill="#6f5a49" font-size="11" font-family="ui-monospace,monospace">RUNTIME</text><text x="654" y="116" fill="#f0e4d6" font-size="16" font-weight="700" font-family="Inter,system-ui,sans-serif">Linux · systemd · Nginx</text>
+<text x="939" y="92" fill="#6f5a49" font-size="11" font-family="ui-monospace,monospace">PRINCIPLE</text><text x="939" y="116" fill="#f0e4d6" font-size="16" font-weight="700" font-family="Inter,system-ui,sans-serif">quiet UI · clear logs</text>
+</svg>
