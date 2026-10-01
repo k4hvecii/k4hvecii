@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">K4hveci footer</title>
+  <desc id="desc">Coffee terminal footer with contact prompt.</desc>
+  <rect width="1200" height="250" rx="28" fill="#0b0907"/>
+  <rect x="1" y="1" width="1198" height="248" rx="27" fill="none" stroke="#2b211a"/>
+  <text x="58" y="66" fill="#b18b69" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">03 / SIGNAL</text>
+  <text x="58" y="118" fill="#f0e4d6" font-size="30" font-weight="700" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Build. Debug. Simplify. Ship.</text>
+  <text x="58" y="158" fill="#917965" font-size="18" font-family="Inter, ui-sans-serif, system-ui, sans-serif">No dashboard theatre. No badge wall. Just useful systems and a warm terminal.</text>
+  <text x="58" y="205" fill="#6f5a49" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">k4hveci@coffee:~$ echo "see you in the logs"</text>
+</svg>
