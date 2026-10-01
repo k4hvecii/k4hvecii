@@ -1,0 +1,11 @@
+{
+  "name": "K4HVE.CI",
+  "tagline": "Discord systems · backend tooling · Linux infrastructure",
+  "principle": "quiet interfaces / clear logs / production-minded systems",
+  "mode": "building / debugging / shipping",
+  "focus": "Discord systems · backend",
+  "runtime": "Linux · systemd · Nginx",
+  "contact": "contact@k4hveci.info",
+  "site": "https://k4hveci.info/",
+  "github": "https://github.com/k4hvecii"
+}

@@ -8,6 +8,10 @@ on:
     branches: [main]
     paths:
       - "assets/profile/profile.template.svg"
+      - "data/profile.json"
+      - "data/systems.json"
+      - "data/projects.json"
+      - "data/stack.json"
       - "scripts/render-profile.py"
       - ".github/workflows/profile-stats.yml"
 
@@ -26,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Render profile stats
+      - name: Render profile and stats
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/render-profile.py
@@ -35,11 +39,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/profile/profile.svg
+          git add assets/profile/profile.svg data/github-stats.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore: refresh profile coding stats"
+            git commit -m "chore: refresh K4 profile data"
             git pull --rebase --autostash origin main
             git push
           else
-            echo "Profile stats are already current."
+            echo "Profile data is already current."
           fi

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "flask",
+    "label": "FLASK / DEVELOPMENT",
+    "title": "General-purpose Discord system",
+    "description": "Management, community, stats and native voice music.",
+    "stack": [
+      "TypeScript",
+      "discord.js",
+      "MongoDB",
+      "Voice"
+    ],
+    "status": "development",
+    "visibility": "private"
+  },
+  {
+    "id": "yhmod",
+    "label": "YHMOD / ACTIVE",
+    "title": "Moderation and security",
+    "description": "Logs, settings, safety flows and server operations.",
+    "stack": [
+      "TypeScript",
+      "Moderation",
+      "MongoDB",
+      "Linux"
+    ],
+    "status": "active",
+    "visibility": "private"
+  },
+  {
+    "id": "yh-ticket",
+    "label": "YH TICKET / BUILDING",
+    "title": "Panel-first support workflow",
+    "description": "Queue, claim, private threads, transcripts and settings.",
+    "stack": [
+      "Threads",
+      "Components",
+      "MongoDB"
+    ],
+    "status": "building",
+    "visibility": "private"
+  },
+  {
+    "id": "vps-control",
+    "label": "VPS CONTROL / PRIVATE",
+    "title": "Linux operations surface",
+    "description": "Services, health, databases and operational control.",
+    "stack": [
+      "Node.js",
+      "systemd",
+      "Nginx",
+      "Operations"
+    ],
+    "status": "private",
+    "visibility": "private"
+  }
+]

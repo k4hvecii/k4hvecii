@@ -1,0 +1,29 @@
+{
+  "runtime": [
+    "Node.js",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "discord": [
+    "discord.js",
+    "@discordjs/voice",
+    "Components"
+  ],
+  "data": [
+    "MongoDB",
+    "SQLite",
+    "JSON stores"
+  ],
+  "ops": [
+    "Linux",
+    "systemd",
+    "Nginx",
+    "FFmpeg"
+  ],
+  "workflow": [
+    "Git",
+    "GitHub Actions",
+    "Bash",
+    "VS Code"
+  ]
+}

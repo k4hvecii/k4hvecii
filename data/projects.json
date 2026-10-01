@@ -1,0 +1,30 @@
+[
+  {
+    "id": "discordjs-v14-production-template",
+    "label": "PUBLIC / TEMPLATE",
+    "title": "discordjs-v14-production-template",
+    "description": "A practical baseline for Linux/VPS deployment.",
+    "url": "https://github.com/k4hvecii/discordjs-v14-production-template"
+  },
+  {
+    "id": "k4hvecii.github.io",
+    "label": "PUBLIC / WEB",
+    "title": "k4hvecii.github.io",
+    "description": "K4 System / coffee-terminal site.",
+    "url": "https://github.com/k4hvecii/k4hvecii.github.io"
+  },
+  {
+    "id": "badge-discord",
+    "label": "PUBLIC / TOOLING",
+    "title": "badge-discord",
+    "description": "A compact experiment in the public toolbox.",
+    "url": "https://github.com/k4hvecii/badge-discord"
+  },
+  {
+    "id": "direction",
+    "label": "DIRECTION",
+    "title": "Systems over screenshots",
+    "description": "Bots, backend, automation and control surfaces.",
+    "url": "https://github.com/k4hvecii?tab=repositories"
+  }
+]
