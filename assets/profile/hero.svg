@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">K4hveci — Coffee Terminal</title>
+  <desc id="desc">K4hveci profile hero for Discord systems, backend and Linux infrastructure.</desc>
+  <rect width="1200" height="520" rx="28" fill="#0b0907"/>
+  <rect x="1" y="1" width="1198" height="518" rx="27" fill="none" stroke="#2b211a"/>
+  <circle cx="52" cy="48" r="6" fill="#9a7657"/>
+  <circle cx="74" cy="48" r="6" fill="#5f4938"/>
+  <circle cx="96" cy="48" r="6" fill="#3f3127"/>
+  <text x="126" y="55" fill="#77604e" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">k4 / coffee-terminal</text>
+
+  <text x="58" y="154" fill="#b18b69" font-size="19" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">k4hveci@coffee:~$ whoami</text>
+  <text x="58" y="236" fill="#f0e4d6" font-size="76" font-weight="700" letter-spacing="2" font-family="Inter, ui-sans-serif, system-ui, sans-serif">K4HVE.CI</text>
+  <text x="62" y="282" fill="#a98f7a" font-size="24" font-family="Inter, ui-sans-serif, system-ui, sans-serif">Discord systems · backend tooling · Linux infrastructure</text>
+
+  <rect x="58" y="330" width="252" height="52" rx="14" fill="#15100d" stroke="#32251d"/>
+  <circle cx="86" cy="356" r="6" fill="#7aa58a"/>
+  <text x="104" y="364" fill="#ddcdbd" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">building / shipping</text>
+
+  <rect x="324" y="330" width="238" height="52" rx="14" fill="#15100d" stroke="#32251d"/>
+  <text x="350" y="364" fill="#ddcdbd" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Türkiye · UTC+3</text>
+
+  <rect x="576" y="330" width="250" height="52" rx="14" fill="#15100d" stroke="#32251d"/>
+  <text x="602" y="364" fill="#ddcdbd" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">coffee first, logs second</text>
+
+  <line x1="58" y1="430" x2="1142" y2="430" stroke="#2b211a"/>
+  <text x="58" y="472" fill="#6f5a49" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">K4 SYSTEM / 01 — quiet interfaces, reliable systems.</text>
+</svg>
