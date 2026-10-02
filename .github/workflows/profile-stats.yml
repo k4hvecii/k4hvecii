@@ -3,7 +3,7 @@ name: Refresh K4 Profile Stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 4 * * *"
+    - cron: "17 */6 * * *"
   push:
     branches: [main]
     paths:
