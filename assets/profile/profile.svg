@@ -293,8 +293,7 @@
   <text x="82" y="2257" fill="#6f5a49" font-size="9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">M</text>
   <text x="82" y="2293" fill="#6f5a49" font-size="9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">W</text>
   <text x="82" y="2329" fill="#6f5a49" font-size="9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">F</text>
-  <g id="contribution-heatmap"><rect class="heat-cell" style="animation-delay:0ms" x="116" y="2238" width="13" height="13" rx="3" fill="#17110d"><title>2025-10-05: 0 contributions</title></rect>
-    <rect class="heat-cell" style="animation-delay:8ms" x="116" y="2256" width="13" height="13" rx="3" fill="#17110d"><title>2025-10-06: 0 contributions</title></rect>
+  <g id="contribution-heatmap"><rect class="heat-cell" style="animation-delay:8ms" x="116" y="2256" width="13" height="13" rx="3" fill="#17110d"><title>2025-10-06: 0 contributions</title></rect>
     <rect class="heat-cell" style="animation-delay:16ms" x="116" y="2274" width="13" height="13" rx="3" fill="#17110d"><title>2025-10-07: 0 contributions</title></rect>
     <rect class="heat-cell" style="animation-delay:24ms" x="116" y="2292" width="13" height="13" rx="3" fill="#17110d"><title>2025-10-08: 0 contributions</title></rect>
     <rect class="heat-cell" style="animation-delay:32ms" x="116" y="2310" width="13" height="13" rx="3" fill="#17110d"><title>2025-10-09: 0 contributions</title></rect>
@@ -657,9 +656,10 @@
     <rect class="heat-cell" style="animation-delay:950ms" x="1085" y="2310" width="13" height="13" rx="3" fill="#936342"><title>2026-10-01: 44 contributions</title></rect>
     <rect class="heat-cell" style="animation-delay:958ms" x="1085" y="2328" width="13" height="13" rx="3" fill="#463226"><title>2026-10-02: 2 contributions</title></rect>
     <rect class="heat-cell" style="animation-delay:966ms" x="1085" y="2346" width="13" height="13" rx="3" fill="#463226"><title>2026-10-03: 14 contributions</title></rect>
-    <rect class="heat-cell" style="animation-delay:936ms" x="1104" y="2238" width="13" height="13" rx="3" fill="#c18458"><title>2026-10-04: 86 contributions</title></rect></g>
+    <rect class="heat-cell" style="animation-delay:936ms" x="1104" y="2238" width="13" height="13" rx="3" fill="#c18458"><title>2026-10-04: 86 contributions</title></rect>
+    <rect class="heat-cell" style="animation-delay:944ms" x="1104" y="2256" width="13" height="13" rx="3" fill="#17110d"><title>2026-10-05: 0 contributions</title></rect></g>
 
   <text x="58" y="2398" fill="#7c6655" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">K4 SYSTEM / build. debug. simplify. ship.</text>
-  <text x="1142" y="2398" text-anchor="end" fill="#5f4f43" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">stats synced 2026-10-04</text>
+  <text x="1142" y="2398" text-anchor="end" fill="#5f4f43" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">stats synced 2026-10-05</text>
   </g>
 </svg>
