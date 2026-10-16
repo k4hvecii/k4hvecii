@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-16T16:40:38.316585+00:00",
+  "generated_at": "2026-10-16T21:10:03.942775+00:00",
   "window_days": 365,
   "summary": {
-    "contributions": 438,
-    "commits": 166,
+    "contributions": 335,
+    "commits": 58,
     "pull_requests": 0,
     "reviews": 0,
     "issues": 3,
-    "public_repos": 5,
+    "public_repos": 3,
     "stars": 1,
     "followers": 4,
-    "current_streak": 0,
-    "longest_streak": 7,
-    "avg_per_active_day": 17.5,
-    "weekend_percentage": 69,
-    "most_active_weekday": "Sun",
+    "current_streak": 1,
+    "longest_streak": 6,
+    "avg_per_active_day": 14.0,
+    "weekend_percentage": 64,
+    "most_active_weekday": "Sat",
     "velocity": {
       "trend": "up",
-      "ratio": 19.8,
-      "recent_28d": 396,
-      "previous_28d": 20
+      "ratio": 16.39,
+      "recent_28d": 295,
+      "previous_28d": 18
     }
   },
   "weekday_counts": [
     {
       "day": "Sun",
-      "count": 161
+      "count": 75
     },
     {
       "day": "Mon",
@@ -37,15 +37,15 @@
     },
     {
       "day": "Wed",
-      "count": 21
+      "count": 19
     },
     {
       "day": "Thu",
-      "count": 44
+      "count": 22
     },
     {
       "day": "Fri",
-      "count": 5
+      "count": 12
     },
     {
       "day": "Sat",
@@ -54,22 +54,22 @@
   ],
   "languages": [
     {
-      "name": "JavaScript",
-      "color": "#f1e05a",
-      "count": 2,
-      "percentage": 50.0
-    },
-    {
       "name": "Python",
       "color": "#3572A5",
       "count": 1,
-      "percentage": 25.0
+      "percentage": 33.3
     },
     {
       "name": "HTML",
       "color": "#e34c26",
       "count": 1,
-      "percentage": 25.0
+      "percentage": 33.3
+    },
+    {
+      "name": "JavaScript",
+      "color": "#f1e05a",
+      "count": 1,
+      "percentage": 33.3
     }
   ],
   "top_repositories": [
@@ -78,16 +78,8 @@
       "url": "https://github.com/k4hvecii/k4hvecii",
       "stars": 1,
       "forks": 0,
-      "pushed_at": "2026-10-16T11:26:20Z",
+      "pushed_at": "2026-10-16T16:40:40Z",
       "language": "Python"
-    },
-    {
-      "name": "Discord-Asset-Inspector",
-      "url": "https://github.com/k4hvecii/Discord-Asset-Inspector",
-      "stars": 0,
-      "forks": 0,
-      "pushed_at": "2026-10-04T14:18:38Z",
-      "language": "JavaScript"
     },
     {
       "name": "k4hvecii.github.io",
@@ -96,14 +88,6 @@
       "forks": 0,
       "pushed_at": "2026-10-02T22:19:13Z",
       "language": "HTML"
-    },
-    {
-      "name": "badge-discord",
-      "url": "https://github.com/k4hvecii/badge-discord",
-      "stars": 0,
-      "forks": 0,
-      "pushed_at": "2026-09-16T13:28:59Z",
-      "language": null
     },
     {
       "name": "discordjs-v14-production-template",
@@ -1788,7 +1772,7 @@
     {
       "date": "2026-09-16",
       "weekday": 3,
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-09-17",
@@ -1863,7 +1847,7 @@
     {
       "date": "2026-10-01",
       "weekday": 4,
-      "count": 44
+      "count": 22
     },
     {
       "date": "2026-10-02",
@@ -1878,7 +1862,7 @@
     {
       "date": "2026-10-04",
       "weekday": 0,
-      "count": 86
+      "count": 0
     },
     {
       "date": "2026-10-05",
@@ -1938,7 +1922,7 @@
     {
       "date": "2026-10-16",
       "weekday": 5,
-      "count": 0
+      "count": 7
     }
   ]
 }
