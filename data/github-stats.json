@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-27T18:02:14.323133+00:00",
+  "generated_at": "2026-10-27T22:15:04.969743+00:00",
   "window_days": 365,
   "summary": {
     "contributions": 361,
-    "commits": 81,
+    "commits": 58,
     "pull_requests": 0,
     "reviews": 0,
     "issues": 2,
-    "public_repos": 4,
+    "public_repos": 3,
     "stars": 1,
     "followers": 4,
     "current_streak": 2,
@@ -57,25 +57,19 @@
       "name": "Python",
       "color": "#3572A5",
       "count": 1,
-      "percentage": 25.0
-    },
-    {
-      "name": "TypeScript",
-      "color": "#3178c6",
-      "count": 1,
-      "percentage": 25.0
+      "percentage": 33.3
     },
     {
       "name": "HTML",
       "color": "#e34c26",
       "count": 1,
-      "percentage": 25.0
+      "percentage": 33.3
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
       "count": 1,
-      "percentage": 25.0
+      "percentage": 33.3
     }
   ],
   "top_repositories": [
@@ -84,16 +78,8 @@
       "url": "https://github.com/k4hvecii/k4hvecii",
       "stars": 1,
       "forks": 0,
-      "pushed_at": "2026-10-27T12:13:30Z",
+      "pushed_at": "2026-10-27T18:02:17Z",
       "language": "Python"
-    },
-    {
-      "name": "LabCafe-Bot",
-      "url": "https://github.com/k4hvecii/LabCafe-Bot",
-      "stars": 0,
-      "forks": 0,
-      "pushed_at": "2026-10-27T17:20:49Z",
-      "language": "TypeScript"
     },
     {
       "name": "k4hvecii.github.io",
